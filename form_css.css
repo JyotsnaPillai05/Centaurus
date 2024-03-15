@@ -1,0 +1,8 @@
+.address-form{
+    text-align: left;
+    max-width: 500px;
+    margin:2rem auto;
+    border: 2px solid;
+    padding:2rem;
+    background-image: url('plainbg.jpg');
+}

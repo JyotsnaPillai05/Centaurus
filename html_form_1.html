@@ -1,0 +1,113 @@
+<html>
+<head>
+    <link rel="stylesheet" href="form_css.css">
+    <title>My first website</title>
+    <style>
+        body {
+            /* Inserting background image */
+            background-image: url('technica_formsbg.jpg');
+            background-size: 100% 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <form class="address-form" action="action_page.php" method="POST">
+
+        <div>
+            <label for="fname" style="font-size: 50;">Find Your Doctor</label>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="fname" style="font-size: 20;">First Name:</label><br>
+            <input type="text" id="fname" name="fname" style="width: 300px; ; height: 30px;" placeholder="Type your first name here" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="lname" style="font-size: 20;">Last Name:</label> <br>
+            <input type="text" id="lname" name="lname" style="width: 300px; ; height: 30px;"  placeholder="Type your last name here" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="iden" style="font-size: 20;">Pronouns:</label><br>
+            <input type="text" id="iden" name="iden" style="width: 300px; ; height: 30px;"  placeholder="Type your pronouns here" maxlength="12" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="email" style="font-size: 20;">Email:</label><br>
+            <input type="email" id="email" name="email" style="width: 300px; height: 30px;"  placeholder="Type your email-id here"
+">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="phone" style="font-size: 20;">Phone :</label><br>
+            <input type="tel" id="phone" name="phone" style="width: 300px; height: 30px;"  placeholder="(+91) 93437-83116">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="age" style="font-size: 20;">Age: </label><br>
+            <input type="number" id="age" name="age" style="width: 300px; height: 30px;">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="address" style="font-size: 20;">Address</label>
+        </div>
+        
+        <br>
+
+        <div>
+            <label for="area" style="font-size: 20;">Area</label><br>
+            <input type="text" id="area" name="area" style="width: 300px; height: 30px;"  maxlength="30" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="city" style="font-size: 20;">City</label><br>
+            <input type="text" id="city" name="city" style="width: 300px; height: 30px;"  maxlength="30" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="cont" style="font-size: 20;">Country</label><br>
+            <input type="text" id="cont" name="cont" style="width: 300px;  height: 30px;"  maxlength="30" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="pincode" style="font-size: 20;">Pincode</label><br>
+            <input type="number" id="pincode" name="pincode" style="width: 300px;  height: 30px;"  maxlength="6" required>
+        </div>
+        
+        <br>
+
+        <div>
+            <input type="reset">
+        </div>
+
+        <br>
+
+        <div>
+            <input type="submit">
+        </div>
+
+    </form>
+
+</body>
+</html>
