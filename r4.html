@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family:calibri;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 70%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+  height:200px;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+   
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>Sex Education</h2>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Contraceptives 101</h2>
+      
+      <div class="fakeimg"
+        style="background-image: url('images/bc1.jpg');"></div>
+      </div>
+      <p>
+        Contraceptives regardless of where you lie on the spectrum is of importance if you are sexually active.They help in avoiding unwanted pregnancy and can also be used to prevent the spread of STIs.Thereby increasing its importance even further.Contraceptives are available in a range of options
+</p>
+<p>
+Condoms: Available for both external and internal use, condoms create a barrier to prevent sperm from reaching the egg and also protect against STIs.<br>
+Birth control pills: Oral contraceptives that contain hormones to prevent ovulation and thicken cervical mucus, making it harder for sperm to reach the egg.<br>
+Contraceptive patches: Patches containing hormones (similar to birth control pills) that are applied to the skin and release hormones to prevent pregnancy.<br>
+Injections: Hormonal injections administered every few months to prevent ovulation and thicken cervical mucus.<br>
+Intrauterine devices (IUDs): Small, T-shaped devices inserted into the uterus to prevent pregnancy. They can be hormonal or non-hormonal and offer long-term protection.<br>
+Implants: Small rods inserted under the skin of the arm that release hormones to prevent pregnancy for several years.<br>
+Diaphragms and cervical caps: Devices inserted into the vagina to cover the cervix and prevent sperm from entering the uterus.<br>
+Spermicides: Chemical substances that kill sperm and are often used in combination with other barrier methods.<br>
+Sterilization: Permanent methods of contraception such as tubal ligation (for individuals with ovaries) or vasectomy (for individuals with testes).<br>
+Emergency contraception: Also known as the morning-after pill, emergency contraception can be taken after unprotected sex to prevent pregnancy.<br>
+Dental Dams:Dental dams are another form of barrier contraception commonly used by individuals engaging in oral sex. They are thin, square pieces of latex or polyurethane that are placed over the vulva or anus to create a barrier between the mouth and the genitals or anus. This helps to reduce the risk of transmitting sexually transmitted infections (STIs), including HIV, herpes, and gonorrhea, during oral sex. Just like condoms, dental dams should be used correctly and consistently to be effective in preventing STIs.<br>
+
+</p>
+<p>
+    Choosing a specific contraceptive method depends on various factors, including: Effectiveness: Some methods are more effective than others. For example, long-acting reversible contraceptives (LARCs) like IUDs and implants are highly effective, while methods like condoms have a lower effectiveness rate but provide protection against sexually transmitted infections (STIs).
+</p>
+<p>
+    Health considerations: Individual health factors such as medical history, age, lifestyle, and any existing health conditions can influence the choice of contraceptive. Certain methods may be contraindicated for individuals with specific health issues.<br>
+Convenience: Some people prefer methods that require less frequent attention or intervention, such as hormonal implants or IUDs, while others may prefer methods like condoms that are easy to use and readily available.<br>
+Cost: Cost can be a significant factor in choosing a contraceptive method. Some methods may be covered by insurance, while others may require out-of-pocket expenses.<br>
+Side effects: Different contraceptives can have varying side effects. For example, hormonal methods like birth control pills may cause changes in menstrual bleeding or mood swings, while non-hormonal methods like condoms typically have fewer side effects.<br>
+STI protection: If protection against STIs is a concern, barrier methods like condoms are recommended in addition to other contraceptives.<br>
+</p>
+<p>
+    Ultimately, the best contraceptive method is one that meets an individual's needs in terms of effectiveness, health considerations, convenience, cost, side effects, and STI protection. It's important to discuss these factors with a healthcare provider to make an informed decision.
+</p>
+
+   <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div class="fakeimg" style="background-image:url('images/Logo.jpg.jpeg');"></div>
+      <p>We are Centaurus a platform creating an inclusive space for queer-communities while also providing them with resources to better their lives</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg" style="background-image: url('images/std.jpg')"></div><br>
+      <div class="fakeimg" style="background-image: url('images/sexuality.jpg')"></div><br>
+      <div class="fakeimg" style="background-image: url('images/hiv.jpg')"></div>
+    </div>
+    
+    
+    
+
+
+</body>
+</html>
